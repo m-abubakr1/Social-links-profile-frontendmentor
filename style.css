@@ -17,7 +17,7 @@
 
   --ff: "Inter", sans-serif;
   --fs-body: 0.875rem;
-  --fs-heading: 1.375rem;
+  --fs-heading: 1.75rem;
   --fw-400: 400;
   --fw-600: 600;
   --fw-700: 700;
@@ -48,6 +48,39 @@ img {
   width: 6em;
   margin-bottom: 1.5rem;
   margin-inline: auto;
+}
+
+.name {
+  line-height: 1.1;
+  font-size: var(--fs-heading);
+  font-weight: var(--fw-600);
+  margin-bottom: 0.5rem;
+}
+
+.location {
+  color: var(--primary-Green);
+  font-weight: var(--fw-600);
+  margin: 0.5rem 0 1.5rem;
+}
+.desc {
+  font-size: 0.8rem;
+  font-weight: 200;
+  margin-inline: 1rem;
+}
+
+.links {
+  margin-top: 1.6rem;
+}
+.links * + * {
+  margin-top: 0.8rem;
+}
+.list-item {
+  display: block;
+  width: 100%;
+  background-color: var(--neutral-Grey);
+  color: var(--neutral-White);
+  padding: 0.7rem;
+  border-radius: 0.4rem;
 }
 
 /* Styling pre-added from Frontend mentor */
