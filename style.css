@@ -35,6 +35,12 @@ body {
   background: var(--neutral-Off-Black);
 }
 
+.container {
+  padding: 1.75rem;
+  background-color: var(--neutral-Dark-Grey);
+  border-radius: 0.6rem;
+}
+
 /* Styling pre-added from Frontend mentor */
 .attribution {
   font-size: 11px;
