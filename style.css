@@ -7,6 +7,10 @@
   text-decoration: none;
   list-style-type: none;
 }
+:root {
+  --primary: white;
+}
+
 body {
   min-height: 100vh;
   display: grid;
