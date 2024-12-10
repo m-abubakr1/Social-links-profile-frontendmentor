@@ -88,12 +88,3 @@ img {
   background-color: var(--primary-Green);
   color: var(--neutral-Off-Black);
 }
-
-/* Styling pre-added from Frontend mentor */
-.attribution {
-  font-size: 11px;
-  text-align: center;
-}
-.attribution a {
-  color: hsl(228, 45%, 44%);
-}
