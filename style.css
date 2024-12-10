@@ -17,7 +17,7 @@
 
   --ff: "Inter", sans-serif;
   --fs-body: 0.875rem;
-  --fs-heading: 1.75rem;
+  --fs-heading: 1.7rem;
   --fw-400: 400;
   --fw-600: 600;
   --fw-700: 700;
@@ -53,7 +53,7 @@ img {
 .name {
   line-height: 1.1;
   font-size: var(--fs-heading);
-  font-weight: var(--fw-600);
+  font-weight: var(--fw-500);
   margin-bottom: 0.5rem;
 }
 
@@ -62,6 +62,7 @@ img {
   font-weight: var(--fw-600);
   margin: 0.5rem 0 1.5rem;
 }
+
 .desc {
   font-size: 0.8rem;
   font-weight: 200;
@@ -81,6 +82,11 @@ img {
   color: var(--neutral-White);
   padding: 0.7rem;
   border-radius: 0.4rem;
+}
+
+.list-item:hover {
+  background-color: var(--primary-Green);
+  color: var(--neutral-Off-Black);
 }
 
 /* Styling pre-added from Frontend mentor */
